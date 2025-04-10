@@ -1,0 +1,44 @@
+.hero-logo{
+  max-width: 250px;
+  height: auto;
+}
+
+.fa-li i{
+  font-size: 18px !important;
+}
+
+.list-products{
+  margin-left: 60px;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);;
+  font-size: 15px;
+}
+
+.stamp{
+  margin-bottom: 5px;
+  padding: 10px 100px;
+  width: 100%;
+  height: auto;
+}
+
+.product-table{
+  padding: 10px 30px;
+}
+
+.rociador.naranja td{
+  background-color: #ed7d31;
+}
+.rociador.rojo td{
+  background-color: #c00000;
+}
+.rociador.amarillo td{
+  background-color: #ffff00;
+}
+.rociador.verde td{
+  background-color: #92d050;
+}
+.rociador.azul td{
+  background-color: #2e75b6;
+}
+.rociador.morado td{
+  background-color: #7030a0;
+}
