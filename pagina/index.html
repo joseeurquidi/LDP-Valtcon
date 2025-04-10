@@ -51,11 +51,11 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Inicio<br></a></li>
-          <li><a href="about.html">Nosotros</a></li>
-          <li><a href="services.html">Productos</a></li>
-          <li><a href="pricing.html">Marca</a></li>
-          <li><a href="pricing.html">Contacto</a></li>
+          <li><a href="javascript:;" onclick="scrollToElement('hero')" >Inicio<br></a></li>
+          <li><a href="javascript:;" onclick="scrollToElement('about')" >Nosotros</a></li>
+          <li><a href="javascript:;" onclick="scrollToElement('products')" >Productos</a></li>
+          <li><a href="javascript:;" onclick="scrollToElement('brands')" >Marca</a></li>
+          <li><a href="javascript:;" onclick="scrollToElement('contact')" >Contacto</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -100,8 +100,7 @@
         <div class="row gy-4">
 
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-first" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+            <img src="assets/img/about2.jpg" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-6 content order-last  order-lg-first" data-aos="fade-up" data-aos-delay="100">
@@ -147,7 +146,7 @@
     </section><!-- /About Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="products" class="services section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -162,7 +161,14 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-1.jpg" alt="" class="img-fluid">
+                <div id="swiper1" class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/img/products/COPLES_RANUDRADOS/m/mNosotros(1)_html_1f820732b2b670af.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets/img/products/COPLES_RANUDRADOS/m/mNosotros(1)_html_d610284b99748e7b.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets/img/products/COPLES_RANUDRADOS/m/mNosotros(1)_html_f404fc105879e1e8.jpg" alt="" class="img-fluid"></div>
+                  </div>
+                  <div id="swiper-pagination1"></div>
+                </div>
               </div>
               <h3>COPLES RANUDRADOS</h3>
               <ul class="fa-ul list-products">
@@ -180,12 +186,19 @@
             </div>
           </div><!-- End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-4.jpg" alt="" class="img-fluid">
+                <div id="swiper2" class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets\img\products\TEE_MECANICAS\m\mNosotros(1)_html_140e6cb31e40fe5c.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\TEE_MECANICAS\m\mNosotros(1)_html_296efda2808212cb.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\TEE_MECANICAS\m\mNosotros(1)_html_c2a0c693976fcaad.jpg" alt="" class="img-fluid"></div>
+                  </div>
+                  <div id="swiper-pagination2"></div>
+                </div>
               </div>
-              <h3><a href="#" class="stretched-link">TEE MECANICAS</a></h3>
+              <h3 class="main-color">TEE MECANICAS</h3>
               <ul class="fa-ul list-products">
                 <li><span class="fa-li"><i class="bi bi-dash"></i></span>TEE MECANICA RANURADA</li>
                 <li><span class="fa-li"><i class="bi bi-dash"></i></span>TEE MECANICA  ROSCADA</li>
@@ -204,7 +217,13 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-3.jpg" alt="" class="img-fluid">
+                <div id="swiper3" class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/img/products/BRIDAS/m/mNosotros(1)_html_169e83c2c6307021.jpg " alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets/img/products/BRIDAS/m/mNosotros(1)_html_af49ba487d63f26c.jpg" alt="" class="img-fluid"></div>
+                  </div>
+                  <div id="swiper-pagination3"></div>
+                </div>
               </div>
               <h3>BRIDAS</h3>
               <ul class="fa-ul list-products">
@@ -224,9 +243,19 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-2.jpg" alt="" class="img-fluid">
+                <div id="swiper4" class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_RANURADAS\m\mNosotros(1)_html_1ee2009290e7957b.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_RANURADAS\m\mNosotros(1)_html_2158b53e36816822.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_RANURADAS\m\mNosotros(1)_html_7220cc8cda8a25e2.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_RANURADAS\m\mNosotros(1)_html_c03b2bed67971564.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_RANURADAS\m\mNosotros(1)_html_e3515816b9c3a117.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_RANURADAS\m\mNosotros(1)_html_f09c5b72266662e4.jpg" alt="" class="img-fluid"></div>
+                  </div>
+                  <div id="swiper-pagination4"></div>
+                </div>
               </div>
-              <h3><a href="#" class="stretched-link">CONEXIONES RANURADAS</a></h3>
+              <h3 class="main-color">CONEXIONES RANURADAS</h3>
               <ul class="fa-ul list-products">
                 <li><span class="fa-li"><i class="bi bi-dash"></i></span>CODO 90º</li>
                 <li><span class="fa-li"><i class="bi bi-dash"></i></span>CODO 45º</li>
@@ -245,10 +274,22 @@
             </div>
           </div><!-- End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-5.jpg" alt="" class="img-fluid">
+                <div id="swiper5" class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets\img\products\VALVULAS\m\mNosotros(1)_html_1b4e75335934d2b3.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\VALVULAS\m\mNosotros(1)_html_1d7e29329a2be178.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\VALVULAS\m\mNosotros(1)_html_62dba6a1ddf3134d.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\VALVULAS\m\mNosotros(1)_html_1107fd6f2847d33f.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\VALVULAS\m\mNosotros(1)_html_aad12a6defac919f.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\VALVULAS\m\mNosotros(1)_html_c09aa372d2057ccf.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\VALVULAS\m\mNosotros(1)_html_c57c88f7dbedeafc.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\VALVULAS\m\mNosotros(1)_html_dc830328acf4d627.jpg" alt="" class="img-fluid"></div>
+                  </div>
+                  <div id="swiper-pagination5"></div>
+                </div>
               </div>
               <h3>VALVULAS</h3>
               <ul class="fa-ul list-products">
@@ -269,12 +310,25 @@
             </div>
           </div><!-- End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-3.jpg" alt="" class="img-fluid">
+                <div id="swiper6" class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_H_MALEABLE_ROSCAS_NEGRA_Y_GALV\m\mNosotros(1)_html_23b3187b55f26f40.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_H_MALEABLE_ROSCAS_NEGRA_Y_GALV\m\mNosotros(1)_html_530fd8d6dfb628be.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_H_MALEABLE_ROSCAS_NEGRA_Y_GALV\m\mSin título.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_H_MALEABLE_ROSCAS_NEGRA_Y_GALV\m\mSin título1.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_H_MALEABLE_ROSCAS_NEGRA_Y_GALV\m\mSin título2.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_H_MALEABLE_ROSCAS_NEGRA_Y_GALV\m\mSin título3.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_H_MALEABLE_ROSCAS_NEGRA_Y_GALV\m\mSin título4.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_H_MALEABLE_ROSCAS_NEGRA_Y_GALV\m\mSin título5.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\CONEXIONES_H_MALEABLE_ROSCAS_NEGRA_Y_GALV\m\mSin título6.png" alt="" class="img-fluid"></div>
+                  </div>
+                  <div id="swiper-pagination6"></div>
+                </div>
               </div>
-              <h3><a href="#" class="stretched-link">CONEXIONES H.MALEABLE ROSCAS NEGRA Y GALV</a></h3>
+              <h3 class="main-color">CONEXIONES H.MALEABLE ROSCAS NEGRA Y GALV</h3>
               <ul class="fa-ul list-products">
                 <li><span class="fa-li"><i class="bi bi-dash"></i></span>TEE RECTA 150#</li>
                 <li><span class="fa-li"><i class="bi bi-dash"></i></span>CODO 90º 150#</li>
@@ -291,10 +345,22 @@
             </div>
           </div><!-- End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-6.jpg" alt="" class="img-fluid">
+                <div id="swiper7" class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets\img\products\SOPORTERIA\m\mNosotros(1)_html_286f55edcb553e74.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\SOPORTERIA\m\mNosotros(1)_html_301a30c5df5a57c8.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\SOPORTERIA\m\mNosotros(1)_html_5652a864d54d4011.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\SOPORTERIA\m\mNosotros(1)_html_673006ef0e7e2a65.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\SOPORTERIA\m\mNosotros(1)_html_c25f7add9c0581f8.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\SOPORTERIA\m\mNosotros(1)_html_c2271cdbcba85b89.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\SOPORTERIA\m\mNosotros(1)_html_cb1e8056cd4142f0.jpg" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\SOPORTERIA\m\mNosotros(1)_html_e2b3fb4a0c8bd6fd.jpg" alt="" class="img-fluid"></div>
+                  </div>
+                  <div id="swiper-pagination7"></div>
+                </div>
               </div>
               <h3>SOPORTERIA</h3>
               <ul class="fa-ul list-products">
@@ -310,12 +376,17 @@
             </div>
           </div><!-- End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-6.jpg" alt="" class="img-fluid">
+                <div id="swiper8" class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets\img\products\TUBERIA__RANURADA_TUBERIA_UL_FM__NEGRA_Y_ROJA\m\mNosotros(1)_html_7e47eabd3473eacc.png" alt="" class="img-fluid"></div>
+                  </div>
+                  <div id="swiper-pagination8"></div>
+                </div>
               </div>
-              <h3><a href="#" class="stretched-link">TUBERIA  RANURADA TUBERIA UL/FM  NEGRA Y ROJA</a></h3>
+              <h3 class="main-color">TUBERIA RANURADA TUBERIA UL/FM  NEGRA Y ROJA</h3>
               <h5>ASTM A795/ASTM A135</h5>
               <ul class="fa-ul list-products">
                 <li><span class="fa-li"><i class="bi bi-dash"></i></span>TUBERIA CEDULA 10 DE 1” A  8”</li>
@@ -328,10 +399,19 @@
 
           
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-2.jpg" alt="" class="img-fluid">
+                <div id="swiper9" class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets\img\products\Conexiones_MJ\m\mNosotros(1)_html_6bc7618fa0d31311.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\Conexiones_MJ\m\mNosotros(1)_html_54ec3f2889877cee.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\Conexiones_MJ\m\mNosotros(1)_html_754281e870e56eb1.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\Conexiones_MJ\m\mNosotros(1)_html_7693506156a0eba0.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\Conexiones_MJ\m\mNosotros(1)_html_edacfa5362d38ff8.png" alt="" class="img-fluid"></div>
+                  </div>
+                  <div id="swiper-pagination9"></div>
+                </div>
               </div>
               <h3>Conexiones MJ</h3>
               <ul class="fa-ul list-products">
@@ -347,12 +427,21 @@
             </div>
           </div><!-- End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-1.jpg" alt="" class="img-fluid">
+                <div id="swiper19" class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets\img\products\Rociadores\m\mNosotros(1)_html_9af6e04d34d46fb5.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\Rociadores\m\mNosotros(1)_html_73c53278d146ed8d.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\Rociadores\m\mNosotros(1)_html_7344450609967ec8.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\Rociadores\m\mNosotros(1)_html_c6a297905c93e7e8.png" alt="" class="img-fluid"></div>
+                    <div class="swiper-slide"><img src="assets\img\products\Rociadores\m\mNosotros(1)_html_f5c35e9bfe98da54.png" alt="" class="img-fluid"></div>
+                  </div>
+                  <div id="swiper-pagination10"></div>
+                </div>
               </div>
-              <h3><a href="#" class="stretched-link">Rociadores</a></h3>
+              <h3 class="main-color">Rociadores</h3>
               <ul class="fa-ul list-products">
                 <li><span class="fa-li"><i class="bi bi-dash"></i></span>ROCIADOR UPRIGHT</li>
                 <li><span class="fa-li"><i class="bi bi-dash"></i></span>ROCIADOR PENDENT</li>
@@ -411,25 +500,88 @@
 
     </section><!-- /Services Section -->
 
+    <section id="brands" class="clients section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span>Marcas<br></span>
+        <h2>Marcas</h2>
+      </div><!-- End Section Title -->
+      
+      <div class="container">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/marcas/anvil.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/marcas/berman.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/marcas/clavan.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/marcas/eaton.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/marcas/lede.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/marcas/potterroemer.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/marcas/sigma.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/marcas/tyco.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/marcas/victualic.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/marcas/viking.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/marcas/villacero.jpg" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
             <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title">
         <span>Contacto</span>
         <h2>Contacto</h2>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
 
-        <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="mb-4" >
           <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.494075929917!2d-100.28633432403593!3d25.688060611643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629567e8477109%3A0xd6c8b1981f6929e9!2sRafael%20N%C3%A1jera%203023%2C%20Fabriles%2C%2064550%20Monterrey%2C%20N.L.!5e0!3m2!1ses!2smx!4v1744269338189!5m2!1ses!2smx" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div><!-- End Google Maps -->
 
         <div class="row gy-4">
 
           <div class="col-lg-4 col-12">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="info-item d-flex">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h3>Dirección</h3>
@@ -437,7 +589,7 @@
               </div>
             </div><!-- End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="info-item d-flex">
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Teléfono</h3>
@@ -445,7 +597,7 @@
               </div>
             </div><!-- End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="info-item d-flex">
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Correo</h3>
@@ -456,7 +608,7 @@
           </div>
 
           <div class="col-lg-4 col-12">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="info-item d-flex">
               <i class="bi bi-facebook flex-shrink-0"></i>
               <div>
                 <h3>Facebook</h3>
@@ -466,7 +618,7 @@
               </div>
             </div><!-- End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="info-item d-flex">
               <i class="bi bi-whatsapp flex-shrink-0"></i>
               <div>
                 <h3>Whatsapp</h3>
@@ -516,7 +668,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script src="assets/js/custom.js"></script>
 </body>
 
 </html>

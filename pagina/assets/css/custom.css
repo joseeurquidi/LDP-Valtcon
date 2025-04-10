@@ -1,3 +1,6 @@
+.main-color{
+  color : #001973;
+}
 .hero-logo{
   max-width: 250px;
   height: auto;
@@ -41,4 +44,23 @@
 }
 .rociador.morado td{
   background-color: #7030a0;
+}
+
+/*--------------------------------------------------------------
+# Clients Section
+--------------------------------------------------------------*/
+.clients .swiper {
+  padding: 10px 0;
+}
+
+.clients .swiper-wrapper {
+  height: auto;
+}
+
+.clients .swiper-slide img {
+  transition: 0.3s;
+}
+
+.clients .swiper-slide img:hover {
+  transform: scale(1.1);
 }
