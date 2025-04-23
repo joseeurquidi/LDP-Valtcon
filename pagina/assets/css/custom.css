@@ -64,3 +64,20 @@
 .clients .swiper-slide img:hover {
   transform: scale(1.1);
 }
+
+
+
+/*
+	Cambios por Edgar
+*/
+
+@media (min-width: 1200px) {
+    .navmenu a, .navmenu a:focus {
+        font-size: 24px;
+    }
+}
+
+
+.contact .info-item .whats {
+    background: #2fc746;
+}
