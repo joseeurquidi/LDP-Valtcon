@@ -1,6 +1,10 @@
 .main-color{
   color : #001973;
 }
+
+.main-background{
+  background-color : #001973;
+}
 .hero-logo{
   max-width: 250px;
   height: auto;
@@ -65,8 +69,38 @@
   transform: scale(1.1);
 }
 
+.h-30{
+  height: 30px;
+}
 
+.portals ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #b3c4ff;
+  align-items: baseline;
+}
 
+.portals ul li + li::before {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  content: "/";
+}
+
+.portals ul a {
+  color: white;
+  font-size: 14px
+}
+
+@media (max-width: 576px) {
+  .portals ul a {
+    font-size: 10px
+  }
+}
 /*
 	Cambios por Edgar
 */
